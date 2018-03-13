@@ -1,11 +1,10 @@
 #!/usr/bin/env php
 <?php
 defined('VENDOR_PATH') or define('VENDOR_PATH', __DIR__ . '/../../');
-defined('APP_MIGRATION_PATH') or define('APP_MIGRATION_PATH', __DIR__ . '/../../../migration');
 defined('VENDOR_MIGRATION_PATH') or define('VENDOR_MIGRATION_PATH', __DIR__);
-defined('VENDOR_ORM_PATH') or define('VENDOR_ORM_PATH', __DIR__ . '/../newx-orm');
+defined('APP_MIGRATION_PATH') or define('APP_MIGRATION_PATH', __DIR__ . '/../../../migration');
 
-require VENDOR_PATH . '/autoload.php';
+require VENDOR_PATH . 'autoload.php';
 
 // 配置文件
 $config = require APP_MIGRATION_PATH . '/config/config.php';

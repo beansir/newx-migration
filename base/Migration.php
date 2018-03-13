@@ -5,7 +5,7 @@
  */
 namespace newx\migration\base;
 
-use newx\orm\base\NewxOrm;
+use newx\orm\NewxOrm;
 
 class Migration implements MigrationInterface
 {
